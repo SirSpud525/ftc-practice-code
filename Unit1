@@ -1,0 +1,17 @@
+Unit 1 Problems- use an online Java IDE or IntellIJ Idea for these
+
+a.
+//write a function which takes two whole number inputs and outputs the whole number sum
+//the function should also output 0 if the sum is 0 or is a negative number
+
+b.
+//write a function which takes two inputs, a number and a boolean
+//the function should accept decimal numbers and whole numbers
+//if the boolean input is true, return half of the number as the output
+//otherwise, return the number cubed as the output
+//(find another way to this besides using a function for powers)
+
+c.
+//write a function that takes one input as a whole number and returns result of adding together
+//every number up to and including the input number
+//do not accept inputs of 0 or negative numbers, and return 0 in these cases
