@@ -1,0 +1,72 @@
+Unit 1 KEY & Test Cases
+
+a.
+Test cases:
+
+*change func name as needed
+System.out.println(add(1,3));//4
+System.out.println(add(-2,1));//0
+System.out.println(add(-3,3));//0
+
+Code:
+public static int add(int num1, int num2){
+      
+      int result = num1 + num2;
+      
+      if(result > 0){
+          return result;
+      } else {
+          return 0;
+      }
+      
+  }
+
+b.
+Test cases:
+
+System.out.println(potato(5,true));//2.5
+System.out.println(potato(5,false));//125
+System.out.println(potato(-2,true));//-1
+System.out.println(potato(-2,false));//-8
+
+Code:
+
+public static double potato(double number, boolean y_n){
+      
+      double result;
+      
+      if(y_n){
+          result = number/2;
+      } else {
+          result = number * number * number;
+      }
+      
+      return result;
+      
+  }
+
+c.
+Test cases:
+
+System.out.println(factorialish(-5));//0
+System.out.println(factorialish(0));//0
+System.out.println(factorialish(7));//28
+System.out.println(factorialish(3));//6
+
+Code:
+
+public static double factorialish(int input){
+      
+      if (input <= 0){
+          return 0;
+      } else {
+          int curNum = 1;
+          int total = 0;
+          while(curNum <= input){
+              total = total + curNum;
+              curNum++;
+          }
+          return total;
+      }
+      
+  }
